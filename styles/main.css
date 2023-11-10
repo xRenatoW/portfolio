@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+
+* {font-family: 'Readex Pro';}
+
+
+/* Estilo mais chamativo para o link */
+a {
+    text-decoration: none;
+    color: rgb(201, 142, 4) !important; /* Cor azul mais vibrante */
+    font-weight: 600;
+    transition: color 0.3s ease-in-out; /* Adicionar transição suave na cor */
+}
+
+/* Efeito de mudança de cor ao passar o mouse */
+a:hover {
+    color: rgb(66, 2, 41) !important; /* Cor mais escura ao passar o mouse */
+}
+
+ul {list-style-type: none;}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
